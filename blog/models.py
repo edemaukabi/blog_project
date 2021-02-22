@@ -1,6 +1,6 @@
 from django.db import models
 from django.urls import reverse
-# Create your models here
+# Create your models
 
 class Post(models.Model):
     title = models.CharField(max_length=200)
